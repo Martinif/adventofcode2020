@@ -53,7 +53,7 @@ impl From<String> for BoardingPass {
 
 
 fn main() {
-    let data = fs::read_to_string("input05.txt").expect("Unable to read file");
+    let data = fs::read_to_string("input/input05.txt").expect("Unable to read file");
     let mut ids : Vec<i32> = data.lines().map(|bps| BoardingPass::from(bps.to_string()).get_id()).collect();
     ids.sort();
     println!("Task 1: {}", ids.last().unwrap());

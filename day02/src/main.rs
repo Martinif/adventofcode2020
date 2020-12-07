@@ -35,7 +35,7 @@ impl From<String> for Password {
 }
 
 fn main() {
-    let data = fs::read_to_string("input02.txt").expect("Unable to read file");
+    let data = fs::read_to_string("input/input02.txt").expect("Unable to read file");
     let mut count_1:u32 = 0;
     let mut count_2:u32 = 0;
     for d in data.lines() {

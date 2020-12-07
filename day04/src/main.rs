@@ -151,7 +151,7 @@ impl From<String> for Passport {
 
 
 fn main() {
-    let data = fs::read_to_string("input04.txt").expect("Unable to read file");
+    let data = fs::read_to_string("input/input04.txt").expect("Unable to read file");
     let mut counter_1: i32 = 0; // passports that fulfill criteria from task 1
     let mut counter_2: i32 = 0; // passports that fulfill criteria from task 2
     for pass_candidate in data.split("\n\n"){

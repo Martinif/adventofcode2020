@@ -1,0 +1,2 @@
+# for now ignore everything in this folder except for this file, so the directory can be commited to git
+!.gitignore

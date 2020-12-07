@@ -30,7 +30,7 @@ fn sum3to2020(input: &Vec<i64>) -> i64 {
 }
 
 fn main() -> Result<(), Error> {
-    let vec = read(File::open("input01.txt")?)?;
+    let vec = read(File::open("input/input01.txt")?)?;
     println!("First task: {:#?}", sum2to2020(&vec));
     println!("Second task: {:#?}", sum3to2020(&vec));
 

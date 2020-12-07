@@ -34,7 +34,7 @@ fn runslopes(field : &mut Vec<Vec<i32>>, step_x: i32, step_y: i32, x_dim : usize
 }
 
 fn main() {
-    let data = fs::read_to_string("input03.txt").expect("Unable to read file");
+    let data = fs::read_to_string("input/input03.txt").expect("Unable to read file");
     let data_arr : Vec<&str> = data.lines().collect();
     let y_dim = data_arr.len();
     let x_dim = data_arr[0].len();
