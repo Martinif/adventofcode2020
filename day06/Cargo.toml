@@ -1,12 +1,10 @@
 [package]
-name = "aoc2020"
+name = "day06"
 version = "0.1.0"
 authors = ["Martin Pletl <martin.pletl@gaf.fs.lmu.de>"]
 edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
-
-
-[workspace]
-members = ["day01", "day02", "day03", "day04", "day05", "day06"]
+[dependencies]
+lazy_static = "1.4.0"
